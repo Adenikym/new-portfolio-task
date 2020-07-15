@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #227B70;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+nav{
+    background-color: white;
+}
+
+ul{
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+
+}
+
+li{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 5%;
+    margin-top: 10px;
+    color: #383A4D;
+}
+
+nav img{
+    margin-right: 35%;
+    margin-top: 10px;
+}
+
+.header{
+    background-image: url("workers\ cleaning.svg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.header p{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+    width:30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.header button{
+    font-family:  'Poppins', sans-serif;
+    color: white;
+    border: 1px solid #F5C512 ;
+    border-radius: 15px;
+    background-color: #F5C512;
+    width: 9%;
+    margin-left: 45%;
+    margin-right: 45%;
+    height:30px;
+    padding: 5px 20px;
+}
+
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.special {
+    position: relative;
+    width:45%;
+    border: 1px solid #227B70;
+    border-radius: 300px;
+    box-shadow: 0 0 3px #227B70;
+    
+
+}
+
+.circletext{
+    width:45%;
+}
+
+
+
+.circletext button{
+    font-family:  'Poppins', sans-serif;
+    color: white;
+    border: 1px solid #F5C512 ;
+    border-radius: 15px;
+    background-color: #F5C512;
+    width: auto;
+    height:30px;
+    padding: 5px 20px;
+}
+
+.choose{
+    margin-top: 50px;
+    text-align: center;
+    
+    
+}
+
+.choose1{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25% ;
+    margin-bottom: 30px;
+}
+
+.quality{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+ .tools img{
+    border: 1px solid #227B70;
+    border-radius: 100px;
+}
+
+.worker img{
+    border: 1px solid #227B70;
+    padding: 20px 20px;
+    border-radius: 400px;
+}
+
+
+
+ .satisfaction img{
+    border: 1px solid #227B70;
+    border-radius: 100px;
+    width:40%;
+    
+}
+
+.services{
+    margin-top: 50px;
+}
+
+.services1{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25% ;
+    margin-bottom: 30px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.top img{
+    width: 80%;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom img{
+    width: 80%;
+}
+
+
+@media screen and (max-width: 840px){
+    .circletext{
+        margin-right: 3%;
+    }
+
+    .quality{
+        display: block;
+    }
+
+    .tools img{
+        margin-bottom: 20px !important;
+    }
+    
+    .worker img{
+        margin-bottom: 20px !important;
+    }
+    
+    
+    
+     .satisfaction img{
+        margin-bottom: 20px !important;
+}}

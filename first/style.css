@@ -320,7 +320,7 @@ justify-content: space-between;
     display: flex;
     max-width: 90%;
     justify-content: space-around;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 .con-1-of-3 {
     align-items: center;
@@ -339,7 +339,19 @@ input {
   input::placeholder {
     color: #6d6868;
   }
-
+  .inp-mes {
+    padding: 50px 50px 10px;
+  }
+.contact-btn {
+    width: 200px;
+}
+.con-btn {
+    background-color: #F5C512;
+    color: #ffffff;
+    border: none;
+    padding: 20px;
+    text-align: center;
+}
 footer{
     background-color: #227B70;
 }

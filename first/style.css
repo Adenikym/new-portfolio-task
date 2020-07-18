@@ -329,6 +329,16 @@ justify-content: space-between;
 .con-1-of-3:not(:last-child){
     margin-right: 20px;
 }
+input {
+    border: 1px solid #6d6868;
+    padding: 20px 50px 10px;
+    font-size: 1.2em;
+    margin: 10px 0;
+    width: 100%;
+  }
+  input::placeholder {
+    color: #6d6868;
+  }
 
 footer{
     background-color: #227B70;

@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 html{
     font-size: 16px;
@@ -183,7 +184,231 @@ nav img{
 .bottom img{
     width: 80%;
 }
+.pricing-header {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.pricing-div {
+    margin-bottom: 50px;
+}
+.cards {
+    max-width: calc(80%);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.col-1-of-3 {
+    align-items: center;
+    width: calc((35% - 5%)*3);
+    box-shadow: 5px 2px 2px black;
+}
+.col-1-of-3:not(:last-child){
+    margin-right: 20px;
+}
+.green-portion {
+    background-color: #227B70;
+}
+.text-center{
+    text-align: center;
+    padding: 20px;
+}
 
+.column {
+    list-style: none;
+    display: block;
+    text-align: center;
+}
+.column li {
+    padding-left: 10px;
+}
+.column li::before {
+    content: "\2022";
+    color: green;
+    font-weight: bold;
+    display: inline-block;
+    list-style-position: outside;
+    width: 2em;
+    margin-left: -1em;
+    padding-top: 20px;
+}
+.card-btn {
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.btn {
+    /* display: block;
+    width: 30%; */
+    padding: 10px 40px;
+    background-color: #F5C512;
+    border-radius: 50px;
+    border: none;
+
+}
+
+
+.pricing-image {
+    background: url(pricing-image.jpg);
+    margin-top: 30px;
+    height: 80vh;
+}
+.pricing-desc {
+    /* margin-right: auto; */
+    height: auto;
+    margin-left: 70%;
+
+}
+.pricing-desc h2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.circles-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+.circle-shape {
+    height: 100px;
+    width: 100px;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+.testimonials{
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cards2 {
+    max-width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.column-1-of-3 {
+    box-shadow: 2px 2px 2px 2px #5c5858;
+    padding: 20px 40px 20px;
+}
+
+.column-1-of-3:not(:last-child) {
+    margin-right: 20px;
+}
+
+.circ-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.customer-info {
+max-width: 250px;
+display: flex;
+justify-content: space-between;
+
+}
+.contact-header {
+    text-align: center;
+    margin: 30px auto;
+}
+.testimonial-header {
+    text-align: center;
+    margin: 30px 0;
+}
+.contact-cols{
+    display: flex;
+    max-width: 90%;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+.con-1-of-3 {
+    align-items: center;
+    width: calc((35% - 5%)*3);
+}
+.con-1-of-3:not(:last-child){
+    margin-right: 20px;
+}
+input {
+    border: 1px solid #6d6868;
+    padding: 20px 50px 10px;
+    font-size: 1.2em;
+    margin: 10px 0;
+    width: 100%;
+  }
+  input::placeholder {
+    color: #6d6868;
+  }
+  .inp-mes {
+    padding: 50px 50px 10px;
+  }
+.contact-btn {
+    width: 200px;
+}
+.con-btn {
+    background-color: #F5C512;
+    color: #ffffff;
+    border: none;
+    padding: 20px;
+    text-align: center;
+}
+footer{
+    background-color: #227B70;
+}
+
+.foot-cols {
+    color: #ffffff;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 50px;
+}
+
+
+.col-1-of-4:not(:last-child){
+    padding-right: 50px;
+}
+
+.address, .phone, .email{
+    padding: 20px 0;
+}
+.addressp {
+    display: inline;
+}
+
+@media screen and (max-width: 768px){
+.foot-cols {
+    width: 70vh;
+    flex-wrap: wrap;
+}
+.cards2 {
+    flex-wrap: wrap;
+}
+.cards {
+    flex-wrap: wrap;
+    /* margin: 20px auto; */
+}
+.col-1-of-3 {
+    margin: 10px auto;
+}
+.con-1-of-3 {
+    margin: 10px auto;
+}
+.column-1-of-3 {
+    margin: 10px auto;
+}
+
+.contact-cols {
+    flex-wrap: wrap;
+}
+.pricing-desc {
+    margin: 150px 30px;
+    padding: 40px auto;
+}
+.pricing-image {
+    height: 50vh;
+}
+}
 
 @media screen and (max-width: 840px){
     .circletext{
